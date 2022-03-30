@@ -1,3 +1,17 @@
-body{
+body {
     background-color: #dee2e6;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    flex-wrap: wrap;
+    background-color: #e9ecef;
+    height: 15em;
+    width: 13em;
+    padding: auto;
+    margin-left: 70vh;
+    margin-top: 10vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

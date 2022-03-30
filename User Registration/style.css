@@ -15,15 +15,15 @@ h5{
 }
 
 .main-form{
-    background-color:#e9ecef;
+    background-color: #e9ecef;
     height: 30em;
     width: 25em;
     padding: auto;
     margin-left: 70vh;
     margin-top: 10vh;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-    
+
 }
 
 .form-input{
@@ -39,7 +39,7 @@ h5{
 }
 
 input{
-    
+
     width: 100%;
     padding: 6px 10px;
     margin: 6px 0;
