@@ -9,16 +9,40 @@
     <main class="main-form">
         <h2>Register</h2>
         <hr>
-        <form action="" method="post">
+        <form action="" method="post" onclick="validateform()">
             <section class="form-input">
-                <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+                <input type="text" name="firstname" id="firstname" placeholder="First Name" >
                 <input type="text" name="firstname" id="firstname" placeholder="Last Name" required>
                 <input type="email" name="email" id="email" placeholder="E-mail" required>
                 <input type="text" name="phoneNumber" id="phoneNumber" placeholder="Phone Number" required>
                 <input type="datetime" name="dateofbirth" id="dateofbirth" placeholder="Date Of Birth" required>
-                <input type="button" name="register" value="Register" id="btn" placeholder="Register" required>
+                <input type="button" name="register" value="Register" id="btn" placeholder="Register" >
             </section>
         </form>
     </main>
+    <script>
+        const firstname = document.getElementById("firstname");
+const lastname = document.getElementById("lastname");
+const email = document.getElementById("email");
+const phoneNumber = document.getElementById("phoneNumber");
+const dateOfBirth = document.getElementById("dateofbirth");
+const btn = document.getElementById("btn");
+
+
+
+
+function myFunction() {
+  // Get the value of the input field with id="numb"
+  let x=phoneNumber.value;
+  // If x is Not a Number or less than one or greater than 10
+  let text;
+  if (isNaN(x) || x < 1 || x > 10) {
+    text = "Input not valid";
+  } else {
+    text = "Input OK";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+    </script>
 </body>
 </html>
